@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/screen_camera"
+        android:icon="@drawable/photo_camera_svgrepo_com"
+        android:title="CameraScreen" />
+
+    <item
+        android:id="@+id/screen_room"
+        android:icon="@drawable/home"
+        android:title="DoorScreen" />
+
+
+</menu>

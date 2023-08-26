@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/screen_camera">
+
+    <fragment
+        android:id="@+id/screen_camera"
+        android:name="com.example.testapp.presentation.ui.screen_camera.FragmentCamera"
+        android:label="fragment_camera"
+        tools:layout="@layout/fragment_camera" />
+
+    <fragment
+        android:id="@+id/screen_room"
+        android:name="com.example.testapp.presentation.ui.screen_door.FragmentDoor"
+        android:label="fragment_door"
+        tools:layout="@layout/fragment_door" />
+</navigation>
